@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>Hello World</h1>
+    </body>
+    <script>
+        const url="https://glorious-tribble-5grx4r646g4ph4p4j-3333.app.github.dev/student"
+        fetch(url,{ method: "POST", 
+        body: JSON.stringify({ name: "Harish", age:22, rollNo: 354354 }),
+         headers: { 'Content-Type': 'application/json' } })
+          .then((response) => { console.log(response) })
+ 
+    
+        
+    </script>
+    </html>
